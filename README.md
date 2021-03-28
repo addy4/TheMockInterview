@@ -12,7 +12,9 @@ Run Command -
 mvn spring-boot:run
 
 API for Get Request with tag parameter (tag = Topic of Interest)
+
 http://localhost:8080/api/v1/interviewstag?tag=Algorithms
 
 API for Get Request with tag parameters (tag = Topic of Interest AND time = Time Date 1 of Slot)
+
 http://localhost:8080/api/v1/interviewstag?tag=Algorithms&time=June 4 11:00 PM - 12:15 PM
