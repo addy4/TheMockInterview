@@ -54,6 +54,7 @@ public class CandidateController {
         System.out.println("Length = " + length);
         for(int candidate = 0 ; candidate < length ; candidate ++)
         {
+	    System.out.println("Point!") ; 
             System.out.println(matches.get(candidate).getTime_date1());
             if(time_date1.equals(matches.get(candidate).getTime_date1()) || time_date1.equals("NOSUB"))
             {
