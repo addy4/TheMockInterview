@@ -1,5 +1,14 @@
 # project-scheduler-interview
-This is the backend code for scheduling interviews. The cadidates for the interview can be added using the postman app. Database with the name 'emp' is created and all candidates are inserted into a table having the name 'participants' . Scheduling will be done on the basis of time and date input provided by the users. This spring application is a MAVEN based application where PostgreSQL is used for the database. 
+This is the 'Mock Interview Scheduler Web App'
+
+Backend - SpringBoot
+Front End - ReactJS
+
+The cadidates for the interview can be added using the postman app. Database with the name 'emp' is created and all candidates are inserted into a table having the name 'participants' . Scheduling will be done on the basis of time and date input provided by the users. This springBoot+ReactJS application is a MAVEN based application where PostgreSQL is used for the database. 
+
+Requirements : 
+1. Apache Maven
+2. Node Package Manager (npm) 
 
 Dependencies listed in pom.xml : 
 1. JDBC
@@ -9,7 +18,8 @@ Dependencies listed in pom.xml :
 
 Run Command - 
 
-mvn spring-boot:run
+Backend Server -> mvn spring-boot:run
+Front End -> npm start
 
 API for Get Request with tag parameter (tag = Topic of Interest)
 
