@@ -17,6 +17,7 @@ import net.guides.springboot2.crud.model.Candidate;
 //import net.guides.springboot2.crud.repository.EmployeeRepository;
 import net.guides.springboot2.crud.repository.CandidateRepository ;
 
+@CrossOrigin(origins = "http://localhost:3000") 
 @RestController
 @RequestMapping("/api/v1")
 public class CandidateController {
