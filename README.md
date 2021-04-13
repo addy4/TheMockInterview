@@ -2,6 +2,7 @@
 This is the 'Mock Interview Scheduler Web App'
 
 Backend - SpringBoot
+
 Front End - ReactJS
 
 The cadidates for the interview can be added using the postman app. Database with the name 'emp' is created and all candidates are inserted into a table having the name 'participants' . Scheduling will be done on the basis of time and date input provided by the users. This springBoot+ReactJS application is a MAVEN based application where PostgreSQL is used for the database. 
