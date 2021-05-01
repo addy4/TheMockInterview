@@ -5,7 +5,9 @@ Backend - SpringBoot
 
 Front End - ReactJS
 
-The cadidates for the interview can be added using the postman app. Database with the name 'emp' is created and all candidates are inserted into a table having the name 'participants' . Scheduling will be done on the basis of time and date input provided by the users. This springBoot+ReactJS application is a MAVEN based application where PostgreSQL is used for the database. 
+Entries made by user : Candidate Name, Email-ID, Interview topic, Start-time, End-time
+ 
+Candidates (Name, Email-IDs) and scheduled interviews (date/time, topic) get listed as seperate tables on the UI. Scheduling is done on the basis of time and date input provided by the users. This springBoot+ReactJS application is a MAVEN based application where PostgreSQL is used for the database. 
 
 Requirements : 
 1. Apache Maven
@@ -26,7 +28,7 @@ API for getting 'matched' interview for parameters(s) : tag ONLY (tag = Topic of
 
 http://localhost:8080/api/v1/interviewstag?tag=Algorithms
 
-API for getting 'matched' interview for parameters(s) : tag AND date-time (tag = Topic of Interest AND time = Start-Date-Time of Slot)
+API for getting 'matched' interview for parameters(s) : tag AND date-time (tag = Topic of Interest AND time = Start-Time of Slot)
 
 http://localhost:8080/api/v1/interviewstag?tag=Algorithms&time=June 4 11:00 PM - 12:15 PM
 
