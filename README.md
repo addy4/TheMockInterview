@@ -26,7 +26,7 @@ API for getting 'matched' interview for parameters(s) : tag ONLY (tag = Topic of
 
 http://localhost:8080/api/v1/interviewstag?tag=Algorithms
 
-API for getting 'matched' interview for parameters(s) : tag AND date-time (tag = Topic of Interest AND time = Time Date 1 of Slot)
+API for getting 'matched' interview for parameters(s) : tag AND date-time (tag = Topic of Interest AND time = Start-Date-Time of Slot)
 
 http://localhost:8080/api/v1/interviewstag?tag=Algorithms&time=June 4 11:00 PM - 12:15 PM
 
