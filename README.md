@@ -1,13 +1,16 @@
 # project-scheduler-interview
-This is the 'Mock Interview Scheduler Web App'
+**Mock Interview Scheduler Web App**
 
-Backend - SpringBoot
-
-Front End - ReactJS
-
-Entries made by user : Candidate Name, Email-ID, Interview topic, Start-time, End-time
+- Backend : SpringBoot
+- Front End : ReactJS
+- Database : PostgreSQL
+- Java build automation : Maven
  
-Candidates (Name, Email-IDs) and scheduled interviews (date/time, topic) get listed as seperate tables on the UI. Scheduling is done on the basis of time and date input provided by the users. This springBoot+ReactJS application is a MAVEN based application where PostgreSQL is used for the database. 
+<p align="justify">
+Candidates (Name, Email-IDs) and scheduled interviews (date/time, topic) get listed as seperate tables on the UI. Scheduling is done on the basis of time and date input provided by the users.  
+</p>
+
+- Entries made by user : Candidate Name, Email-ID, Interview topic, Start-time, End-time
 
 Requirements : 
 1. Apache Maven
@@ -19,10 +22,9 @@ Dependencies listed in pom.xml :
 3. Hibernate
 4. PostgreSQL
 
-Run Command - 
-
-Backend Server -> mvn spring-boot:run
-Front End -> npm start
+- Run Commands : 
+  - Backend Server : mvn spring-boot:run
+  - Front End : npm start
 
 API for getting 'matched' interview for parameters(s) : tag ONLY (tag = Topic of Interest)  
 
